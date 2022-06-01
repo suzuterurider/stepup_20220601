@@ -1,0 +1,40 @@
+body{
+    background-color: #fce0fc;
+    color:#f2437d;
+    text-align: center;
+}
+
+main{
+    width: 80%;
+    margin: 0 auto;
+}
+
+canvas{
+    border: 3px solid #f2437d;
+}
+
+.color a{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+}
+
+.black{
+    background-color: black;
+}
+
+.red{
+    background-color: red;
+}
+
+.green{
+    background-color: green;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.white{
+    background-color: white;
+}

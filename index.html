@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>お絵描きアプリ</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="./js/common.js"></script>
+</head>
+<body>
+
+    <main>
+        <h1>自由にお絵描きをしよう！</h1>
+
+        <canvas id="canvas" width="500" height="300"></canvas>
+
+        <div class="options">
+            <div class="color">
+                <p>好きな色を選んでね！</p>
+                <a href="" class="black" data-color="black"></a>
+                <a href="" class="red" data-color="red"></a>
+                <a href="" class="blue" data-color="blue"></a>
+                <a href="" class="green" data-color="grenn"></a>
+                <a href="" class="white" data-color="white"></a>
+            </div>
+
+            <div class="weight">
+                <p>ペンの太さを選んでね！</p>
+                <a href="" class="large" data-weight="10">大</a>
+                <a href="" class="middle" data-weight="5">中</a>
+                <a href="" class="small" data-weight="1">小</a>
+            </div>
+
+            <button id="clear">ぜんぶ消す</button>
+            <a id="download" href="#" download="canvas.jpg">ダウンロード</a>
+            <a href="javascript:twitText()">ついーとする</a>
+
+        </div>
+
+    </main>
+</body>
+</html>
